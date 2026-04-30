@@ -58,26 +58,26 @@ function App() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-blue-500/30">
 
-      {/* --- NAVBAR --- */}
-      <nav className="flex items-center justify-between px-6 py-6 max-w-7xl mx-auto sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md">
-        <div className="text-xl font-bold tracking-tighter">
-          CodeBy<span className="text-blue-500">Fran</span>.
-        </div>
-        <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
-          <a href="#proyectos" className="hover:text-white transition-colors">Proyectos</a>
-          <a href="#experiencia" className="hover:text-white transition-colors">Experiencia</a>
-          <a href="#contacto" className="hover:text-white transition-colors">Contacto</a>
-        </div>
-        <a
-          href="/public/CV_Jesus_Carranza.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          download="CV_Francisco_Carranza.pdf"
-          className="px-4 py-2 text-sm font-medium border border-gray-800 rounded-full hover:bg-gray-800 transition-colors"
-        >
-          Resumen CV
-        </a>
-      </nav>
+{/* --- NAVBAR --- */}
+        <nav className="flex items-center justify-between px-6 py-6 max-w-7xl mx-auto sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md">
+          <div className="text-xl font-bold tracking-tighter">
+            CodeBy<span className="text-blue-500">Fran</span>.
+          </div>
+          <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+            <a href="#proyectos" className="hover:text-white transition-colors">Proyectos</a>
+            <a href="#experiencia" className="hover:text-white transition-colors">Experiencia</a>
+            <a href="#contacto" className="hover:text-white transition-colors">Contacto</a>
+          </div>
+          <a
+            href="/CV_Jesus_Carranza.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
+            download="CV_Francisco_Carranza.pdf"
+            className="px-4 py-2 text-sm font-medium border border-gray-800 rounded-full hover:bg-gray-800 transition-colors"
+          >
+            Resumen CV
+          </a>
+        </nav>
 
       {/* --- HERO SECTION --- */}
       <main className="max-w-7xl mx-auto px-6 pt-20 pb-32 flex flex-col lg:flex-row items-center justify-between gap-16">

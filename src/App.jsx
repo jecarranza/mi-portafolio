@@ -196,7 +196,7 @@ function App() {
                 ))}
               </div>
 
-              <a href="http://codebyfran.com" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-blue-400 transition-colors">
+              <a href="http://tiendalunasol.codebyfran.com" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-blue-400 transition-colors">
                 Visitar aplicación <span className="text-xl">&rarr;</span>
               </a>
             </div>
